@@ -186,7 +186,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
   .navmenu {
     padding: 0;
   }
@@ -316,10 +316,14 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+
+  .mobile-nav-toggle {
+    display: none;
+  }
 }
 
 /* Mobile Navigation */
-@media (max-width: 1199px) {
+@media (max-width: 700px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -619,7 +623,7 @@ section,
   overflow: clip;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 700px) {
 
   section,
   .section {
@@ -1624,6 +1628,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+   Add your styles here
+} */

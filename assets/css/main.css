@@ -971,7 +971,8 @@ section,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  flex: 0 0 calc(33.33% - 20px); /* 3 per row with space */
 }
 
 .skills-info {
@@ -987,6 +988,17 @@ section,
 @media (max-width: 767px) {
   .skills-item {
     flex-basis: 45%;
+  }
+}
+@media (max-width: 992px) {
+  .skills-item {
+    flex: 0 0 calc(50% - 20px); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-item {
+    flex: 0 0 100%; /* 1 per row on mobile */
   }
 }
 

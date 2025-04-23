@@ -1260,7 +1260,7 @@ section,
   align-items: center;
   transition: all 0.3s ease-in-out;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+  /* border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%); */
   margin-right: 15px;
 }
 
@@ -1276,10 +1276,10 @@ section,
   font-size: 14px;
 }
 
-.contact .info-item:hover i {
+/* .contact .info-item:hover i {
   background: var(--accent-color);
   color: var(--contrast-color);
-}
+} */
 
 .contact .php-email-form {
   background-color: var(--surface-color);

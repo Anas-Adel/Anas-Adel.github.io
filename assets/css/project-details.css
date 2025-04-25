@@ -172,3 +172,27 @@
     margin: 0 0 15px 0 0 0;
     padding: 0;
   }
+
+  /* Reduce the slider size and center it */
+.project-details .project-details-slider {
+  max-width: 700px; /* or any smaller width */
+  margin: 0 auto; /* center horizontally */
+}
+
+/* Set size limits and center image inside each slide */
+.project-details .project-details-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.project-details .project-details-slider img {
+  max-width: 100%;
+  max-height: 400px; /* adjust height as needed */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}

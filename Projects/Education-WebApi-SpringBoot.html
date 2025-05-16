@@ -67,12 +67,12 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Library Desktop App (.Net)</h1>
+        <h1 class="mb-2 mb-lg-0">Education Web API - Spring</h1>
 
         <nav class="breadcrumbs">
           <ol>
             <li><a href="../index.html">Home</a></li>
-            <li class="current">.NET Library Desktop app</li>
+            <li class="current">Spring Education Web Api</li>
           </ol>
         </nav>
       </div>
@@ -106,88 +106,76 @@
           
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/Entity relation diagram.png" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Spring-Education-Api/create assement.png" alt="Admin Dashboard">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/net library.png" loading="lazy" alt="Library App Main Page">
+              <img src="../assets/img/projects photos/Spring-Education-Api/education api.png" loading="lazy" alt="Admin Dashboard">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/user-page.png"  loading="lazy" alt="Book Search Feature">
+              <img src="../assets/img/projects photos/Spring-Education-Api/submit assesment.png" loading="lazy" alt="Admin Dashboard">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/category.png" loading="lazy" alt="Borrowing System UI">
-            </div>
-            <div class="swiper-slide">
-              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/author.png" loading="lazy" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Spring-Education-Api/grade submission.png" loading="lazy" alt="Admin Dashboard">
             </div>
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
         </div>
-
+  
         <!-- Project Content -->
-        <div class="row justify-content-between gy-4 mt-4">
-          <!-- Description -->
-          <div class="col-lg-8">
-            <div class="project-description">
-              
-              <p>
-                This is the desktop version of my library web app, enabling users to borrow books and admins to manage the books inventory. It includes additional features such as borrowing history tracking, books can be in mutiple categories, and multiple users can borrow the same book if it has available copies.
-              </p>
+<div class="row justify-content-between gy-4 mt-4">
+  <!-- Description -->
+  <div class="col-lg-8">
+    <div class="project-description">
+      <p>
+        This Education Web API allows Instructors to create and manage courses, students to enroll and participate, and admins manage the whole system. This was a team project of 6 members, and I was responsible for <Strong>Assessment Component</Strong>.
+      </p>    
 
-              <h5>🔑 Key Features:</h5>
-              <ul>
-                <li><strong>User Authentication:</strong>  Secure login and sign-up with the validations.</li>
-                <li><strong>Admin control:</strong>  Admins can manage book inventory: add, edit, or remove books.</li>
-                <li><strong>Search System:</strong>  find books by title, author, or category.</li>
-                <li><strong>Borrowing & Returning:</strong>  users can borrow and return books without conflicts.</li>
-              </ul>
+      <h5>🧩 Software Components:</h5>
+      <ul>
+        <li><strong>Assessment (My component):</strong> Create and manage quizzes/assignments, handle student submissions, and support both manual and automatic grading.</li>
+        <li><strong>Course component:</strong>   Instructors can create and manage courses; students can enroll and access course content.</li>
+        <li><strong>User component:</strong> User authentication, role-based access, and profile management.</li>
+        <li><strong>Notifications:</strong> Sends email notifications to students regarding grades, deadlines, and important updates.</li>
+        <li><strong>Performance & Reports:</strong> Tracks Students attendace & grades and generate reports.</li>
+      </ul>
 
-              <h5>➕ Additional Features:</h5>
-              <ul>
-                <li><strong>Borrow History Tracking:</strong> Users can see their borowing history, and admins can see all books borrowing history.</li>
-                <li><strong>Multi-Category Books:</strong> Books can belong to multiple categories (many-to-many relation).</li>
-                <li><strong>Multi-Users borrowing a book:</strong> Mutiple users can borrow the same book if there is mutiple copies available (many-to-many relation).</li>
-              </ul>
+      <h5>🔑 Assessment Component Features:</h5>
+      <ul>
+        <li><strong>Assessment CRUD:</strong>  Create, read, update, and delete assignments/quizes based on your Role (Instructor, Student).</li>
+        <li><strong>Assesmets Submission:</strong>  Students can Submit thier enrolled courses's assignments/quizes in it's valid time.</li>
+        <li><strong>Auto Generating Quizes:</strong>  Quizes can be auto-generated by choosing randomly from the course's question bank.</li>
+        <li><strong>Grading:</strong>  Instructors can grade assignments/quizes manually or automatically (by specifying the correct answer for each question).</li>
+      </ul>
 
-              <h5>🔧 Tech Stack:</h5>
-              <ul>
-                <li><strong>Framework:</strong> .NET Windows Forms (C#)</li>
-                <li><strong>Database:</strong> SQL Server (using raw SQL without Entity Framework or LINQ)</li>
-                <li><strong>Database Design:</strong> ERD (Entity Relationship Diagram)</li>
-              </ul>
+      <h5>🔧 Tech Stack:</h5>
+      <ul>
+        <li><strong>Framework:</strong> Spring Boot</li>
+        <li><strong>Database:</strong> SQL Server</li>
+        <li><strong>Database Design:</strong> ERD (Entity Relationship Diagram)</li>
+      </ul>
 
-              
-              <h5>🚀 Challenges & Learnings:</h5>
-              <p>
-                This project gave me strong experience in designing and implementing a relational database. I effectively managed types of relationships, such as many-to-many associations. By using raw SQL queries instead of Entity Framework or LINQ, I gained a deeper understanding of how SQL works at its core. Additionally, designing the schema through an ERD improved my skills in system architecture and planning.
-              </p>
-
-        
-              <p>
-                🎥 <strong>Watch demo video on LinkedIn:</strong>
-                👉 <a href="https://www.linkedin.com/posts/anasadel_softwaredevelopment-dotnet-sqlserver-activity-7305997948251758592-MlND?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" target="_blank">
-                  Demo Video
-                </a>
-              </p>
-            </div>
-          </div>
-        
-          <!-- Project Info -->
-          <div class="col-lg-3" data-aos-delay="100">
-            <div class="project-info">
-              <h3>Project Information</h3>
-              <ul>
-                <li><strong>Category</strong> Desktop Application</li>
-                <li><strong>Client</strong> Personal Project</li>
-                <li><strong>Tech Stack</strong> .NET, C#, SQL Server</li>
-                <li><strong>Date</strong> May 2024</li>
-                <li><a href="https://www.linkedin.com/posts/anasadel_softwaredevelopment-dotnet-sqlserver-activity-7305997948251758592-MlND?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" class="btn-visit align-self-start" target="_blank">Demo Video</a></li>
-              </ul>
-            </div>
-          </div>
+      <h5>🚀 Challenges & Learnings:</h5>
+      <p>
+        Working on this project taught me a lot about backend API development,from designing and implementing the database to providing a fully functioning API endpoints. Collaborating in a large team taught me a lot about version control (Git/GitHub), modular development by dividing software to components, and API design best practices.
+      </p>      
+    </div>
+  </div>
+      <!-- Project Info -->
+      <div class="col-lg-3" data-aos-delay="100">
+        <div class="project-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Category</strong> Web API</li>
+            <li><strong>Client</strong> Personal Project (Team of 6)</li>
+            <li><strong>Tech Stack</strong> Spring Boot, SQL Server</li>
+            <li><strong>Date</strong> December 2024</li>
+          </ul>
         </div>
+      </div>
+    </div>
+
         
     </section><!-- /Project Details Section -->
   

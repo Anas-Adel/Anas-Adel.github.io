@@ -27,7 +27,6 @@
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
   <link href="../assets/css/project-details.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- =======================================================
   * Template Name: DevFolio
@@ -68,11 +67,12 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Library Web App - Django</h1>
+        <h1 class="mb-2 mb-lg-0">Library Desktop App - .Net</h1>
+
         <nav class="breadcrumbs">
           <ol>
             <li><a href="../index.html">Home</a></li>
-            <li class="current">Django Library web app</li>
+            <li class="current">.NETs Library Desktop app</li>
           </ol>
         </nav>
       </div>
@@ -103,34 +103,39 @@
               }
             }
           </script>
+          
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Django-Library-WebApp/django library.png" alt="Library App Main Page">
+              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/Entity relation diagram.png" alt="Admin Dashboard">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Django-Library-WebApp/seacrhing.png" loading="lazy" alt="Book Search Feature">
+              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/net library.png" loading="lazy" alt="Library App Main Page">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Django-Library-WebApp/user-borrowing.png" loading="lazy" alt="Borrowing System UI">
+              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/user-page.png"  loading="lazy" alt="Book Search Feature">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Django-Library-WebApp/admin-page.png" loading="lazy" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/category.png" loading="lazy" alt="Borrowing System UI">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Library-DesktopApp/author.png" loading="lazy" alt="Admin Dashboard">
             </div>
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
         </div>
-  
+
         <!-- Project Content -->
         <div class="row justify-content-between gy-4 mt-4">
           <!-- Description -->
-          <div class="col-lg-8" >
+          <div class="col-lg-8">
             <div class="project-description">
-              <p>
-                A full-stack Library Management Web App that enables users to search and borrow books, while admins can manage the book inventory (add, update, remove).
-              </p>
               
+              <p>
+                This is the desktop version of my library web app, enabling users to borrow books and admins to manage the books inventory. It includes additional features such as borrowing history tracking, books can be in mutiple categories, and multiple users can borrow the same book if it has available copies.
+              </p>
+
               <h5>🔑 Key Features:</h5>
               <ul>
                 <li><strong>User Authentication:</strong>  Secure login and sign-up with the validations.</li>
@@ -139,45 +144,51 @@
                 <li><strong>Borrowing & Returning:</strong>  users can borrow and return books without conflicts.</li>
               </ul>
 
+              <h5>➕ Additional Features:</h5>
+              <ul>
+                <li><strong>Borrow History Tracking:</strong> Users can see their borowing history, and admins can see all books borrowing history.</li>
+                <li><strong>Multi-Category Books:</strong> Books can belong to multiple categories (many-to-many relation).</li>
+                <li><strong>Multi-Users borrowing a book:</strong> Mutiple users can borrow the same book if there is mutiple copies available (many-to-many relation).</li>
+              </ul>
+
               <h5>🔧 Tech Stack:</h5>
               <ul>
-                <li><strong>Backend:</strong> Django (Python)</li>
-                <li><strong>Frontend:</strong> HTML, CSS, JavaScript (no framework)</li>
-                <li><strong>Deployment:</strong> PythonAnywhere (Free hosting)</li>
+                <li><strong>Framework:</strong> .NET Windows Forms (C#)</li>
+                <li><strong>Database:</strong> SQL Server (using raw SQL without Entity Framework or LINQ)</li>
+                <li><strong>Database Design:</strong> ERD (Entity Relationship Diagram)</li>
               </ul>
-  
+
+              
               <h5>🚀 Challenges & Learnings:</h5>
               <p>
-                This project gave me hands-on experience across the full development lifecycle — from designing database models and backend logic to building the frontend interface. Deploying the app introduced real-world challenges like managing static files, configuring environment variables, and debugging production issues.
+                This project gave me strong experience in designing and implementing a relational database. I effectively managed types of relationships, such as many-to-many associations. By using raw SQL queries instead of Entity Framework or LINQ, I gained a deeper understanding of how SQL works at its core. Additionally, designing the schema through an ERD improved my skills in system architecture and planning.
               </p>
 
-              <h5>🔗 Links:</h5>
+        
               <p>
-                🌐 <strong>Visit Live Website:</strong>
-                 <a href="https://anas898.pythonanywhere.com" target="_blank">anas898.pythonanywhere.com</a><br>
                 🎥 <strong>Watch demo video on LinkedIn:</strong>
-                 <a href="https://www.linkedin.com/posts/anasadel_python-django-backend-activity-7303527755055263745-9oHi?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" target="_blank">Demo-Video</a> <br>
-                 &nbsp;<i class="fab fa-github"></i>&nbsp;<strong> GitHub Repo:</strong>
-                  <a href="https://github.com/Anas-Adel/Library-Django" target="_blank">github.com/Anas-Adel/Library-Django</a>
+                👉 <a href="https://www.linkedin.com/posts/anasadel_softwaredevelopment-dotnet-sqlserver-activity-7305997948251758592-MlND?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" target="_blank">
+                  Demo Video
+                </a>
               </p>
             </div>
           </div>
-  
+        
           <!-- Project Info -->
           <div class="col-lg-3" data-aos-delay="100">
             <div class="project-info">
               <h3>Project Information</h3>
               <ul>
-                <li><strong>Category</strong> Full Stack Web Application</li>
+                <li><strong>Category</strong> Desktop Application</li>
                 <li><strong>Client</strong> Personal Project</li>
-                <li><strong>Tech Stack</strong> Django, HTML, CSS, JavaScript</li>
-                <li><strong>Date</strong> April 2024</li>
-                <li><a href="https://anas898.pythonanywhere.com" class="btn-visit align-self-start" target="_blank">Visit Website</a></li>
+                <li><strong>Tech Stack</strong> .NET, C#, SQL Server</li>
+                <li><strong>Date</strong> May 2024</li>
+                <li><a href="https://www.linkedin.com/posts/anasadel_softwaredevelopment-dotnet-sqlserver-activity-7305997948251758592-MlND?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" class="btn-visit align-self-start" target="_blank">Demo Video</a></li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+        
     </section><!-- /Project Details Section -->
   
   </main>

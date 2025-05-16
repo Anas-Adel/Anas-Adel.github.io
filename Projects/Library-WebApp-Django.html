@@ -27,6 +27,7 @@
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
   <link href="../assets/css/project-details.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- =======================================================
   * Template Name: DevFolio
@@ -67,12 +68,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Education Web API (Spring)</h1>
-
+        <h1 class="mb-2 mb-lg-0">Library Web App - Django</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="../index.html">Home</a></li>
-            <li class="current">Spring Education Web Api</li>
+            <li class="current">Django Library web app</li>
           </ol>
         </nav>
       </div>
@@ -103,19 +103,18 @@
               }
             }
           </script>
-          
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Spring-Education-Api/create assement.png" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Django-Library-WebApp/django library.png" alt="Library App Main Page">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Spring-Education-Api/education api.png" loading="lazy" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Django-Library-WebApp/seacrhing.png" loading="lazy" alt="Book Search Feature">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Spring-Education-Api/submit assesment.png" loading="lazy" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Django-Library-WebApp/user-borrowing.png" loading="lazy" alt="Borrowing System UI">
             </div>
             <div class="swiper-slide">
-              <img src="../assets/img/projects photos/Spring-Education-Api/grade submission.png" loading="lazy" alt="Admin Dashboard">
+              <img src="../assets/img/projects photos/Django-Library-WebApp/admin-page.png" loading="lazy" alt="Admin Dashboard">
             </div>
           </div>
           <div class="swiper-button-prev"></div>
@@ -124,62 +123,61 @@
         </div>
   
         <!-- Project Content -->
-<div class="row justify-content-between gy-4 mt-4">
-  <!-- Description -->
-  <div class="col-lg-8">
-    <div class="project-description">
-      <p>
-        This Education Web API allows Instructors to create and manage courses, students to enroll and participate, and admins manage the whole system. This was a team project of 6 members, and I was responsible for <Strong>Assessment Component</Strong>.
-      </p>    
+        <div class="row justify-content-between gy-4 mt-4">
+          <!-- Description -->
+          <div class="col-lg-8" >
+            <div class="project-description">
+              <p>
+                A full-stack Library Management Web App that enables users to search and borrow books, while admins can manage the book inventory (add, update, remove).
+              </p>
+              
+              <h5>🔑 Key Features:</h5>
+              <ul>
+                <li><strong>User Authentication:</strong>  Secure login and sign-up with form validations.</li>
+                <li><strong>Admin control:</strong>  Admins can manage book inventory: add, edit, or remove books.</li>
+                <li><strong>Search System:</strong>  Find books by title, author, or category.</li>
+                <li><strong>Borrowing & Returning:</strong>  Users can borrow and return books without conflicts.</li>
+              </ul>
 
-      <h5>🧩 Software Components:</h5>
-      <ul>
-        <li><strong>Assessment (My component):</strong> Create and manage quizzes/assignments, handle student submissions, and support both manual and automatic grading.</li>
-        <li><strong>Course component:</strong>   Instructors can create and manage courses; students can enroll and access course content.</li>
-        <li><strong>User component:</strong> User authentication, role-based access, and profile management.</li>
-        <li><strong>Notifications:</strong> Sends email notifications to students regarding grades, deadlines, and important updates.</li>
-        <li><strong>Performance & Reports:</strong> Tracks Students attendace & grades and generate reports.</li>
-      </ul>
+              <h5>🔧 Tech Stack:</h5>
+              <ul>
+                <li><strong>Backend:</strong> Django (Python)</li>
+                <li><strong>Frontend:</strong> HTML, CSS, JavaScript (no framework)</li>
+                <li><strong>Deployment:</strong> PythonAnywhere (Free hosting)</li>
+              </ul>
+  
+              <h5>🚀 Challenges & Learnings:</h5>
+              <p>
+                This project gave me hands-on experience across the full development lifecycle — from designing database models and backend logic to building the frontend interface. Deploying the app introduced real-world challenges like managing static files, configuring environment variables, and debugging production issues.
+              </p>
 
-      <h5>🔑 Assessment Component Features:</h5>
-      <ul>
-        <li><strong>Assessment CRUD:</strong>  Create, read, update, and delete assignments/quizes based on your Role (Instructor, Student).</li>
-        <li><strong>Assesmets Submission:</strong>  Students can Submit thier enrolled courses's assignments/quizes in it's valid time.</li>
-        <li><strong>Auto Generating Quizes:</strong>  Quizes can be auto-generated by choosing randomly from the course's question bank.</li>
-        <li><strong>Grading:</strong>  Instructors can grade assignments/quizes manually or automatically (by specifying the correct answer for each question).</li>
-      </ul>
-
-      <h5>🔧 Tech Stack:</h5>
-      <ul>
-        <li><strong>Framework:</strong> Spring Boot</li>
-        <li><strong>Database:</strong> SQL Server</li>
-        <li><strong>Database Design:</strong> ERD (Entity Relationship Diagram)</li>
-      </ul>
-
-      <h5>🚀 Challenges & Learnings:</h5>
-      <p>
-        Working on this project taught me a lot about backend API development,from designing and implementing the database to providing a fully functioning API endpoints. Collaborating in a large team taught me a lot about version control (Git/GitHub), modular development by dividing software to components, and API design best practices.
-      </p>
-
-      
-    </div>
-  </div>
-
-      <!-- Project Info -->
-      <div class="col-lg-3" data-aos-delay="100">
-        <div class="project-info">
-          <h3>Project Information</h3>
-          <ul>
-            <li><strong>Category</strong> Web API</li>
-            <li><strong>Client</strong> Personal Project (Team of 6)</li>
-            <li><strong>Tech Stack</strong> Spring Boot, SQL Server</li>
-            <li><strong>Date</strong> December 2024</li>
-          </ul>
+              <h5>🔗 Links:</h5>
+              <p>
+                🌐 <strong>Visit Live Website:</strong>
+                 <a href="https://anas898.pythonanywhere.com" target="_blank">anas898.pythonanywhere.com</a><br>
+                🎥 <strong>Watch demo video on LinkedIn:</strong>
+                 <a href="https://www.linkedin.com/posts/anasadel_python-django-backend-activity-7303527755055263745-9oHi?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE" target="_blank">Demo-Video</a> <br>
+                 &nbsp;<i class="fab fa-github"></i>&nbsp;<strong> GitHub Repo:</strong>
+                  <a href="https://github.com/Anas-Adel/Library-Django" target="_blank">github.com/Anas-Adel/Library-Django</a>
+              </p>
+            </div>
+          </div>
+  
+          <!-- Project Info -->
+          <div class="col-lg-3" data-aos-delay="100">
+            <div class="project-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong> Full Stack Web Application</li>
+                <li><strong>Client</strong> Personal Project</li>
+                <li><strong>Tech Stack</strong> Django, HTML, CSS, JavaScript</li>
+                <li><strong>Date</strong> April 2024</li>
+                <li><a href="https://anas898.pythonanywhere.com" class="btn-visit align-self-start" target="_blank">Visit Website</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-        
     </section><!-- /Project Details Section -->
   
   </main>

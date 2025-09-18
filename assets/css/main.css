@@ -612,3 +612,36 @@ section,
 .section-title p {
   margin-bottom: 0;
 }
+
+
+.show-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 28px;
+  border: 3px solid #1565b0;     /* calm subtle border */
+  border-radius: 8px;
+  background: #d9ebf7;           /* slightly darker light blue */
+  color: #1565b0;                /* dark calm text (still very clear) */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin: 24px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.show-btn:hover {
+  background: #c9e1f2;           /* darker hover for clear interaction */
+  border-color: #9bbdd5;
+}
+
+.show-btn i {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.show-btn.active i {
+  transform: rotate(180deg);
+}
+/* 1f4e79 */

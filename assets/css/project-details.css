@@ -196,3 +196,44 @@
   display: block;
   margin: 0 auto;
 }
+
+
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  background-color: #24292e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 0px;
+  transition: background-color 0.3s;
+}
+
+.github-button i {
+  margin-right: 6px;
+}
+
+.github-button:hover {
+  background-color: #444c56;
+  color: white;
+}
+
+
+.github-link {
+  text-decoration: underline;  /* Underline link text */
+  font-size: 13px;
+  display: inline-flex;        /* Keep icon and text together */
+}
+
+.github-link i {
+  font-size: 15px;
+  color: black;                /* Black GitHub icon */
+  margin-right: 4px;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}

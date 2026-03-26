@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Anas Adel - Finance Manager - ASP.NET Core</title>
+  <meta name="description"
+    content="Technical case study of a high-performance .NET Finance Manager featuring ACID transactions, background job automation, and professional security hardening.">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.webp" rel="icon">
+  <link href="../assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/project-details.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-project-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="project-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="../index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Anas Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html">Home<br></a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Finance Manager - ASP.NET Core</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li class="current">Finance Manager</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Project Details Section -->
+    <section id="project-details" class="project-details section">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Slider -->
+        <div class="project-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Full Dashboard.webp" loading="lazy"
+                alt="Full Dashboard">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Transactions.webp" loading="lazy"
+                alt="Transactions">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Add Transaction.webp" loading="lazy"
+                alt="Add Transaction">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Wallets.webp" loading="lazy" alt="Wallets">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Reports.webp" loading="lazy" alt="Reports">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Hangfire.webp" loading="lazy"
+                alt="Hangfire Jobs">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/projects photos/DotNet-Finance-WebApp/Excel Report.webp" loading="lazy"
+                alt="Excel Report" style="width: 100%; height: auto; object-fit: contain;">
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Project Content -->
+        <div class="row justify-content-between gy-4 mt-4">
+          <div class="col-lg-3 order-1 order-lg-2" data-aos-delay="100">
+            <div class="project-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category:</strong> Backend-Heavy Web Application</li>
+                <li><strong>Tech Stack:</strong> .NET 10, SQL Server, Hangfire</li>
+                <li><strong>Date:</strong> March 2026</li>
+              </ul>
+              <div class="mt-3">
+                <a href="https://finance-manager.runasp.net/" target="_blank" class="btn btn-primary w-100 mb-2"><i
+                    class="bi bi-globe me-2"></i> View Live App</a>
+                <a href="https://github.com/Anas-Adel/finance-manager-aspnet" target="_blank"
+                  class="btn btn-dark w-100"><i class="bi bi-github me-2"></i> Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 order-2 order-lg-1">
+            <div class="project-description">
+              <p>
+                A personal finance manager for tracking income and expenses, analyzing spending behavior, and
+                generating financial reports. Built with a focus on backend engineering, improving
+                performance through <strong>SQL indexing</strong> and <strong>caching</strong>, ensuring
+                data integrity with atomic <strong>database transactions</strong>, hardening
+                security with <strong>CSP</strong> and <strong>HTTP security headers</strong>, and generating
+                scheduled reports using <strong>Hangfire background jobs</strong>.
+                The application follows a clean <strong>layered architecture</strong> designed for
+                maintainability and testability.
+              </p>
+
+              <h5 class="mt-4">🔑 Key Features</h5>
+              <ul>
+                <li><strong>Income & Expense Tracking:</strong> Record financial transactions and classify them into
+                  categories.</li>
+                <li><strong>Multi-Wallet Management:</strong> Track money across different wallets and use one for each
+                  transaction.</li>
+                <li><strong>Dashboards:</strong> Visualize financial behavior via interactive charts and aggregate data
+                  points.</li>
+                <li><strong>Scheduled Reporting:</strong> Automatically generate and send reports via email (weekly,
+                  monthly, or custom schedules).</li>
+              </ul>
+
+              <h5 class="mt-4">🚀 Engineering Highlights</h5>
+              <ul>
+                <li><strong>🛡️ Atomic Database Transactions (ACID):</strong> Ensures <strong>full data
+                    integrity</strong> by wrapping multi-table operations into single units, preventing partial updates
+                  and inaccurate financial balances.</li>
+                <li><strong>🗄️ Database Indexing:</strong> Added a composite index on <code>(UserId, Date)</code> in
+                  the <code>Transactions</code> table to optimize frequently filtered queries.</li>
+                <li><strong>🏎️ High-Performance EF Core:</strong> Used <code>ExecuteUpdateAsync</code> for bulk
+                  database updates without loading entities into memory, and <code>AsNoTracking</code> for read-only
+                  queries to eliminate Change Tracker overhead, and optimized LINQ queries.</li>
+                <li><strong>⚡ Optimized Caching:</strong> Reduced database round-trips for frequently accessed data
+                  using <code>IMemoryCache</code> and invalidating the cache on updates.</li>
+                <li><strong>⛓️ Scheduled Reports:</strong> Implemented user-defined report scheduling using Hangfire. At
+                  the scheduled time, a background job generates the report and delivers it via email. Handled time-zone
+                  conversions so schedules align with the user's local time.</li>
+                <li><strong>🔐 Security:</strong> Secured the app against XSS and injection attacks using Content
+                  Security Policies (CSP) and HTTP security headers. Added global CSRF protection on all data-changing
+                  requests. Enabled signing in with Google (OAuth 2.0).</li>
+                <li><strong>🧪 Testing & Error Handling:</strong> Verified the core logic by writing <strong>Unit
+                    Tests</strong> (xUnit/Moq). Implemented a <strong>Global Exception Middleware</strong> and added
+                  logging using <strong>Serilog</strong> to log the exceptions or other info.</li>
+              </ul>
+
+              <h5 class="mt-4">🏗️ System Design & Architecture</h5>
+              <p>
+                The system follows an <strong>N-Tier Layered Architecture</strong> using <strong>Repository & Service
+                  Layer Patterns</strong>. This structure ensures a clear separation of concerns, decouples business
+                logic from data access, and ensures the codebase is testable and maintainable according to
+                <strong>SOLID</strong> principles.
+              </p>
+              <div class="mb-4">
+                <code>Controllers</code> ➔ <code>Services</code> ➔ <code>Repositories</code> ➔ <code>SQL Server</code>
+              </div>
+              <div class="mb-4">
+                <p class="fw-bold mb-2">🗄️ Entity Relationship Diagram (ERD)</p>
+                <img src="../assets/img/projects photos/DotNet-Finance-WebApp/ERD.png"
+                  class="img-fluid rounded border shadow-sm" alt="Entity Relationship Diagram"
+                  style="max-height: 400px;">
+              </div>
+
+              <h5 class="mt-4">🔧 Tech Stack</h5>
+              <ul>
+                <li><strong>Core Backend:</strong> ASP.NET Core 10 (MVC) | C# 13</li>
+                <li><strong>Data Persistence:</strong> SQL Server | Entity Framework Core 10</li>
+                <li><strong>Reliability & DevOps:</strong> xUnit, Moq (Testing) | Serilog (Logging) | GitHub Actions
+                  (CI/CD)</li>
+                <li><strong>Job Scheduling & Integrations:</strong> Hangfire (Scheduling) | ClosedXML (Reporting) |
+                  Mailjet (Emails) | Google OAuth</li>
+              </ul>
+
+              <h5 class="mt-4">🧠 Challenges & Learnings</h5>
+              <p>
+                Through this project, I evolved from developing basic CRUD apps to engineering
+                <strong>production-grade software</strong>, with a focus on quality attributes like
+                <strong>data integrity, performance, security, and maintainability</strong> to meet professional
+                standards.
+              </p>
+
+              <ul>
+                <li>
+                  <strong>Financial Accuracy:</strong> Used <strong>Decimal</strong> instead of <strong>Float</strong>
+                  for all money attributes to prevent rounding errors.
+                </li>
+                <li>
+                  <strong>Clean Structure:</strong> Used <strong>ViewModels</strong> to keep the models
+                  private and easier to update without breaking the app.
+                </li>
+                <li>
+                  <strong>Data Integrity:</strong> Automated <strong>cascading updates</strong> on
+                  deleting a wallet or changing category type.
+                </li>
+                <li>
+                  <strong>Global Logic:</strong> Handled <strong>Time-Zones</strong> so that
+                  all dates and schedules are correct for users worldwide.
+                </li>
+              </ul>
+
+              <p class="mt-5 border-top pt-4">
+                <i class="bi bi-linkedin" style="color: #0a66c2; margin-right: 5px;"></i> Watch a demo video of the app on LinkedIn: 
+                <a href="https://www.linkedin.com/posts/anasadel_dotnet-aspnetcore-backendengineering-activity-7443052929848328192-ZYO2?utm_source=share&utm_medium=member_desktop&rcm=ACoAADY7iXsB5j5eELj3_0-Y2QzP82aKqg8JJVE"
+                  target="_blank" rel="noopener noreferrer"><strong>Demo Video</strong></a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Project Details Section -->
+
+  </main>
+
+
+
+
+  <footer id="footer" class="footer" style="background-color: black;">
+
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <!-- LinkedIn Icon -->
+        <a href="https://www.linkedin.com/in/AnasAdel" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin text-light" style="font-size: 25px;"></i>
+        </a>
+
+        <!-- GitHub Icon -->
+        <a href="https://github.com/Anas-Adel" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github text-light" style="font-size: 30px;"></i>
+        </a>
+
+        <!-- LeetCode Logo (Image) -->
+        <a href="https://leetcode.com/u/AnasAdel/" target="_blank" rel="noopener noreferrer">
+          <img src="../assets/img/leetcode.webp" alt="LeetCode Logo" style="width: 31px; height: 31px;" />
+        </a>
+      </div><br />
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Anas Adel</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

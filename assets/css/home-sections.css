@@ -103,6 +103,16 @@
     margin-bottom: 0;
   }
   
+  .projects .project-item img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: scale-down;
+    margin-bottom: 16px !important;
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
+    transform: translateZ(0);
+  }
+  
   /* @media (min-width: 1365px) {
     .projects .project-item:hover {
       transform: translateY(-10px);

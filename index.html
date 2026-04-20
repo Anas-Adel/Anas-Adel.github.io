@@ -78,16 +78,16 @@
     <section id="hero" class="hero section dark-background">
 
       <img src="assets/img/hero-img.webp" alt="Anas Adel — Software developer portrait" width="1200" height="600"
-        loading="eager" style="width:100%;height:auto;">
+        loading="eager">
 
       <div class="container d-flex flex-column align-items-left justify-content-left text-left" data-aos="fade-up"
         data-aos-offset="80" data-aos-duration="400" data-aos-delay="0">
         <h2>Anas Adel</h2>
         <p style="font-size: 24px;font-weight: 400">Software Developer</p><br>
-        <p style="font-size: 16px;font-weight: 300; max-width: 750px;">I'm a backend-focused Software Developer with a
-          strong foundation in problem-solving, data structures, algorithms, and database design & implementation. I've
-          worked with various frameworks and tools including ASP.NET, Django, Spring Boot, and more. I can contribute to
-          frontend development when needed, but my true strength lies in backend systems and logic.</p>
+        <p style="font-size: 16px;font-weight: 300; max-width: 750px;">
+          I'm a backend-focused Software Developer with a strong foundation in DSA, solving 200+ problems.<br>
+          I value building production-grade systems, prioritizing reliability, performance, and maintainability.<br>
+          Developed RESTful APIs and web applications with ASP.NET, Django, Spring Boot, and SQL Server. </p>
       </div>
 
     </section><!-- /Hero Section -->
@@ -98,7 +98,6 @@
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Projects</h2>
-        <p>Hands-on experience I've gained by building real-world applications from scratch.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -120,6 +119,26 @@
                 <strong>clean layered architecture</strong>.
               </p>
               <a href="Projects/finance-manager-aspnet-core.html" class="btn btn-primary mt-2">Project Details</a>
+            </div>
+          </div><!-- End Project Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-offset="80" data-aos-duration="400"
+            data-aos-delay="0">
+            <div class="project-item position-relative" style="padding: 20px;">
+
+              <img src="assets/img/projects-photos/spring-education-api/education-api.webp" loading="lazy"
+                class="img-fluid rounded" alt="education api">
+
+              <h3>Education Web API &nbsp;-&nbsp; Spring Boot</h3>
+
+              <p> Collaborated in a <strong>team of 6</strong> to develop this education system.
+                I built the <strong>Assessment Component</strong>, implementing automated
+                grading, quiz generation, and submission workflows.
+                We followed <strong>RESTful</strong> standards and <strong>RBAC</strong> to keep the system
+                <strong>modular</strong> and <strong>maintainable</strong>.
+              </p>
+              <a href="Projects/education-web-api-springboot.html" class="btn btn-primary mt-2">Project details</a>
+
             </div>
           </div><!-- End Project Item -->
 
@@ -153,25 +172,6 @@
               <a href="Projects/library-desktop-app-dotnet.html" class="btn btn-primary mt-2">Project Details</a>
             </div>
           </div><!-- End Project Item -->
-
-          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-offset="80" data-aos-duration="400"
-            data-aos-delay="0">
-            <div class="project-item position-relative" style="padding: 20px;">
-
-              <img src="assets/img/projects-photos/spring-education-api/education-api.webp" loading="lazy"
-                class="img-fluid rounded" alt="education api">
-
-              <h3>Education Web API &nbsp;-&nbsp; Spring Boot</h3>
-
-              <p> This API briefly enables instructors to create and manage courses, while allowing students to enroll
-                and participate in these courses. This was a team project, and I was responsible for <Strong>Assessment
-                  Component</Strong>, which handled assignments, quizzes, submissions, and auto/manual grading. We built
-                this API using Spring boot and linked it with SQL server database.</p>
-              <a href="Projects/education-web-api-springboot.html" class="btn btn-primary mt-2">Project details</a>
-
-            </div>
-          </div><!-- End Project Item -->
-
 
           <div class="col-lg-6 col-md-6 d-none extra-project" data-aos="fade-up" data-aos-offset="80"
             data-aos-duration="400" data-aos-delay="0">
@@ -208,22 +208,6 @@
               <a href="Projects/low-level-system-projects.html" class="btn btn-primary mt-2">Projects Details</a>
             </div>
           </div>
-
-          <div class="col-lg-6 col-md-6 d-none extra-project" data-aos="fade-up" data-aos-offset="80"
-            data-aos-duration="400" data-aos-delay="0">
-            <div class="project-item position-relative" style="padding: 20px;">
-
-              <img src="assets/img/projects-photos/etkaan.webp" loading="lazy" class="img-fluid rounded"
-                alt="Etkaan website">
-
-              <h3>Etkaan company website &nbsp;-&nbsp; WordPress</h3>
-
-              <p>a simple static website for Etkaan company that shows customers the Company's services. Built with
-                WordPress and deployed by GoDaddy</p>
-              <a href="https://etkaan-eg.com/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-primary mt-2">Visit Website</a>
-            </div>
-          </div><!-- End Project Item -->
         </div>
 
         <div class="text-center mt-4">
@@ -239,63 +223,95 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills-section section">
-      <div class="container section-title">
+      <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Key competencies and technologies I specialize in</p>
       </div>
 
-      <div class="skills container">
-        <div class="row gy-4" data-aos="fade-up" data-aos-offset="80" data-aos-duration="400" data-aos-delay="0">
+      <div class="container">
+        <div class="row gy-4">
 
-          <!-- Problem Solving -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="skills-info p-3 border rounded h-100">
-              <h4>Problem Solving</h4>
-              <p>• Algorithms</p>
-              <p>• Data Structures</p>
-              <p>• Algorithms analysis & design</p>
+          <!-- 1. Backend Development -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-category">
+              <h4><i class="bi bi-server"></i> Backend Development</h4>
+              <div class="skill-tags">
+                <span class="tag">ASP.NET Core</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Django</span>
+                <span class="tag">RESTful Web APIs</span>
+                <span class="tag">Swagger / OpenAPI</span>
+              </div>
             </div>
           </div>
 
-          <!-- Programming Languages -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="skills-info p-3 border rounded h-100">
-              <h4>Programming</h4>
-              <p>• C++, C#, Java, Python</p>
-              <p>• Debugging</p>
+          <!-- 2. Software Architecture -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-category">
+              <h4><i class="bi bi-diagram-3-fill"></i> Software Architecture</h4>
+              <div class="skill-tags">
+                <span class="tag">Clean & N-tier Architecture</span>
+                <span class="tag">SOLID Principles</span>
+                <span class="tag">Design Patterns</span>
+                <span class="tag">JWT / OAuth 2.0</span>
+                <span class="tag">RBAC</span>
+              </div>
             </div>
           </div>
 
-          <!-- Backend -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="skills-info p-3 border rounded h-100">
-              <h4>Backend Development</h4>
-              <p>• REST APIs</p>
-              <p>• MVC architecture</p>
-              <p>• CRUD operations</p>
+          <!-- 3. Databases -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-category">
+              <h4><i class="bi bi-database-fill"></i> Databases</h4>
+              <div class="skill-tags">
+                <span class="tag">SQL Server</span>
+                <span class="tag">EF Core & LINQ</span>
+                <span class="tag">SQL Indexing</span>
+                <span class="tag">ACID Transactions</span>
+                <span class="tag">Caching</span>
+              </div>
             </div>
           </div>
 
-          <!-- Databases -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="skills-info p-3 border rounded h-100">
-              <h4>Databases</h4>
-              <p>• SQL Server</p>
-              <p>• Relational Database Design</p>
-              <p>• Entity Framework core & LINQ</p>
+          <!-- 4. Programming & Systems -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-category">
+              <h4><i class="bi bi-code-slash"></i> Programming & Systems</h4>
+              <div class="skill-tags">
+                <span class="tag">C++, C#, Java, Python</span>
+                <span class="tag">Concurrency & Parallelism</span>
+                <span class="tag">OS & Memory Management</span>
+                <span class="tag">OOP</span>
+              </div>
             </div>
           </div>
 
-          <!-- Tools & Technologies -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="skills-info p-3 border rounded h-100">
-              <h4>Tools & Technologies</h4>
-              <p>• Git & GitHub</p>
-              <p>• API Documentation (eg. Postman)</p>
+          <!-- 5. CS Fundamentals -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="skill-category">
+              <h4><i class="bi bi-mortarboard-fill"></i> CS Fundamentals</h4>
+              <div class="skill-tags">
+                <span class="tag">Data Structures & Algorithms</span>
+                <span class="tag">Greedy, DP & Graphs</span>
+                <span class="tag">Big O Analysis</span>
+                <span class="tag">Problem Solving (200+ solved)</span>
+              </div>
             </div>
           </div>
 
-
+          <!-- 6. Tools & DevOps -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="skill-category">
+              <h4><i class="bi bi-shield-check"></i> Tools & DevOps</h4>
+              <div class="skill-tags">
+                <span class="tag">CI/CD (GitHub Actions)</span>
+                <span class="tag">Testing (xUnit / Moq)</span>
+                <span class="tag">Logging (Serilog)</span>
+                <span class="tag">Hangfire</span>
+                <span class="tag">Git & GitHub</span>
+                <span class="tag">API Testing (Postman)</span>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -325,10 +341,11 @@
                 and design, which helped me build a strong foundation in this area.
               </p>
               <p>
-                I enjoy backend development the most because I like working on the logic and functionality behind
-                applications. While I focus primarily on backend systems and logic, I can collaborate on the frontend
-                when needed. I'm passionate and skilled at designing and implementing relational databases from
-                understanding the software requirements to delivering a complete, working solution.
+                I specialize in backend development because I am passionate about building robust, scalable logic and
+                architecture.
+                While I can collaborate on the frontend, my true strength lies in the backend designing secure APIs,
+                implementing Clean Architecture, and optimizing database performance through indexing and caching.
+                I take pride in ensuring data integrity (ACID) and writing maintainable, production-ready code.
               </p>
               <p>
                 I have worked with multiple frameworks and tools (like ASP.NET, Spring Boot, Django, ReactJS,
@@ -361,7 +378,6 @@
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Contact</h2>
-        <p>Feel free to reach out — whether it's about an opportunity, a project, or just to connect.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-offset="80" data-aos-duration="400" data-aos-delay="0">
@@ -375,7 +391,7 @@
                 <i class="bi bi-telephone-fill flex-shrink-0 me-3 fs-4 text-dark"></i>
                 <div>
                   <h3>Phone</h3>
-                  <p>+20 100 161 6635</p>
+                  <p><a href="tel:+201001616635">+20 100 161 6635</a></p>
                 </div>
               </div>
             </div>
@@ -385,7 +401,7 @@
                 <i class="bi bi-envelope-fill flex-shrink-0 me-3 fs-4 text-dark"></i>
                 <div>
                   <h3>Email</h3>
-                  <p>anas.adel.dev@gmail.com</p>
+                  <p><a href="mailto:anas.adel.dev@gmail.com">anas.adel.dev@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -395,7 +411,7 @@
                 <i class="bi bi-geo-alt-fill flex-shrink-0 me-3 fs-4 text-dark"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>Hadayek El-Ahram, Giza, Egypt</p>
+                  <p><a href="https://maps.app.goo.gl/iCwuP9WuyiEKCvCa7" target="_blank" rel="noopener noreferrer">Hadayek El-Ahram, Giza, Egypt</a></p>
                 </div>
               </div>
             </div>
